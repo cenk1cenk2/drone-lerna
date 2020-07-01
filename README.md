@@ -60,10 +60,6 @@ git_password:
   from_secret: password
 ```
 
-## Custom Release File
-
-You can overwrite the default configuration defined in `release.config.js` by adding `release.config.js` or `.releaserc` to your repository. But this can be overwritten by setting `use_local_rc` variable to `true`.
-
 ## What it does
 
 Runs on master branch only. Skips any actions below while on other branches.

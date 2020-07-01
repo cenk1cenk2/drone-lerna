@@ -14,7 +14,7 @@ steps:
       git_user_name:
         from_secret: github_username
       git_user_email:
-        from_secret: github_email
+        from_secret: github_username
       github_token:
         from_secret: github_token
       update_readme_toc: true
